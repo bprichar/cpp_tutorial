@@ -2,9 +2,10 @@
     with more comments */
 
 #include <iostream>
+using namespace std;
 
 int main()
 {
-    std::cout << "Helllo World! "; //prints Hello World!
-    std::cout << "I'm a C++ program"; // prints I'm a C++ program
+    cout << "Helllo World! "; //prints Hello World!
+    cout << "I'm a C++ program"; // prints I'm a C++ program
 }
