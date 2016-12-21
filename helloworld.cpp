@@ -1,8 +1,10 @@
-// my second program in C++
+/* my second program in C++
+    with more comments */
+
 #include <iostream>
 
 int main()
 {
-    std::cout << "Helllo World! ";
-    std::cout << "I'm a C++ program";
+    std::cout << "Helllo World! "; //prints Hello World!
+    std::cout << "I'm a C++ program"; // prints I'm a C++ program
 }
