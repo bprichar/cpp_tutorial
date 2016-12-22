@@ -10,6 +10,7 @@ class Polygon
     void set_values(int a, int b)
         {width = a; height = b;}
     virtual int area () =0;
+    void printarea() {cout << this->area() << endl;}
 };
 
 class Rectangle: public Polygon
@@ -32,7 +33,7 @@ int main()
     Polygon *ppoly2 = &trgl;
     ppoly1->set_values(4, 5);
     ppoly2->set_values(4, 5);
-    cout << ppoly1->area() << endl;
-    cout << ppoly2->area() << endl;
+    ppoly1->printarea();
+    ppoly2->printarea();
     return 0;
 }
