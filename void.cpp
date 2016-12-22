@@ -1,13 +1,18 @@
-// void function example
+// passing parameters by reference
 #include <iostream>
 using namespace std;
 
-void printmessage()
+void duplicate(int& a, int& b, int& c)
 {
-    cout << "I'm a function!";
+    a *= 2;
+    b *= 2;
+    c *= 2;
 }
 
 int main()
 {
-    printmessage();
+    int x=1, y=3, z=7;
+    duplicate(x, y, z);
+    cout << "x=" << x << ", y=" << y << ", z=" << z;
+    return 0;
 }
