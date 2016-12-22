@@ -2,16 +2,20 @@
 #include <iostream>
 using namespace std;
 
-int addition(int a, int b)
+int subraction(int a, int b)
 {
     int r;
-    r = a + b;
+    r = a - b;
     return r;
 }
 
 int main ()
 {
-    int z;
-    z = addition(5, 3);
-    cout << "The result is " << z;
+    int x=5, y=3, z;
+    z = subraction(7, 2);
+    cout << "The first result is " << z << '\n';
+    cout << "The second result is " << subraction(7, 2) << '\n';
+    cout << "The third result is " << subraction(x, y) << '\n';
+    z = 4 + subraction(x, y);
+    cout << "The fourth result is " << z << '\n';
 }
