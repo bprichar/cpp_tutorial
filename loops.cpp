@@ -1,11 +1,14 @@
-// countdown using a for loop
+// range-based for loop
 #include <iostream>
+#include <string>
 using namespace std;
 
 int main ()
 {
-    for (int n = 10; n > 0; n--) {
-        cout << n << ", ";
+    string str {"Hello!"};
+    for (char c : str)
+    {
+        cout << "[" << c << "]";
     }
-    cout << "liftoff!\n";
+    cout << '\n';
 }
