@@ -14,8 +14,8 @@ int main()
 {
     int i = 5, j = 6, k;
     double f = 2.0, g = 0.5, h;
-    k = sum<int>(i, j);
-    h = sum<double>(f, g);
+    k = sum(i, j);
+    h = sum(f, g);
     cout << k << '\n';
     cout << h << '\n';
     return 0;
