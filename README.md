@@ -1,1 +1,1 @@
-Just using git as I run through [this tutorial.](www.cplusplus.com/doc/tutorial)
+This project has moved to https://gitlab.com/everythingfunctional/cpp_tutorial
